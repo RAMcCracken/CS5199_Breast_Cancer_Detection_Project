@@ -1,4 +1,4 @@
-#Deep Learning Techniques for Breast Cancer Detection in Mammograms 
+# Deep Learning Techniques for Breast Cancer Detection in Mammograms 
 This project forms the software artifact for a Masters Dissertation. 
 The basic model is a Transfer Learning model with a base model trained on imagenet weights (defaults to MobileNetV2), 2 additional fully connected layers, one dropout layer and a classification layer with a sigmoid function to predict "Benign" or "Malignant" samples. 
 The model has optional command line parameters to alter hyperparameters: learning rate, batch size, base model, image size and number of fine-tuning epochs. Other command line arguments can be found in the Usage section below. 
