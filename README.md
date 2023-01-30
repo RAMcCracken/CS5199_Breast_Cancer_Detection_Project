@@ -32,6 +32,11 @@ Model usage:
 ```
 python main.py -d <dataset> -t -p -a -hy -lr <learning rate> -m <model name> -s <image size> -n <name> -b <batch size> - e <number fine-tune epochs>
 ```
+Example (baseline):
+```
+python main.py -d BOTH -lr 0.0001 -m MobileNet -s 500 -n "baseline-model" -b 32
+```
+
 * `-d` : select dataset for training/testing from "DDSM", "CMMD" or "BOTH, required parameter
 * `-t`: testmode flag, sets the program to run in testmode when included
 * `-p`: preprocessing flag, sets the program to use the pre-processed dataset when included (note Preprocessing Set Up from above must be completed first)
